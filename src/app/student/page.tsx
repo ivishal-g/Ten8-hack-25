@@ -60,7 +60,8 @@ export default function EventsPage() {
   return (
     <div className="relative min-h-screen text-white">
       <AnimatedBackground />
-      <nav>
+      <nav className="w-full px-4 py-3 z-[200] backdrop-blur-[16px] sticky top-0 border-b-rgba(255,255,255,0.8)
+">
         <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
           lovda
 
